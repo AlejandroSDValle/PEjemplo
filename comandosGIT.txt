@@ -12,3 +12,5 @@ git add . //agrega archivos
 
 git fetch //Una vez clonado la repo este descarga la informacion
 git pull origin main //ya descargada la info se movia al ultimo commit
+
+git checkout -B <nombre> //agrega branch y se posiciona en ella
