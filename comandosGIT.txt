@@ -17,4 +17,14 @@ git checkout -B <nombre> //agrega branch y se posiciona en ella
 git branch <nombre> //Crea una nueva rama
 git checkout <nombre>//Te mueve a la rama
 
-git merge main Dev2 //cambos de main a dev2 para resolver conflictos
+git merge main Dev2 //cambos de main a dev2 para resolver 
+
+git reset --hard //Regresar al ultimo commit que tenia
+git checkout HEAD -- <archivo> //regresar al head o commit valido del archivo
+
+git log //historial de commits 
+git log --oneline //historial mas reducido
+git log --oneline --graph //visualizador grafico de lo que ha pasado
+
+git checkout <commit> //Moverse a un commit en especifico
+git checkout HEAD~1 //regresar un commit atras
