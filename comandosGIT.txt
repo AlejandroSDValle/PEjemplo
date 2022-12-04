@@ -16,3 +16,5 @@ git pull origin main //ya descargada la info se movia al ultimo commit
 git checkout -B <nombre> //agrega branch y se posiciona en ella
 git branch <nombre> //Crea una nueva rama
 git checkout <nombre>//Te mueve a la rama
+
+git merge main Dev2 //cambos de main a dev2 para resolver conflictos
