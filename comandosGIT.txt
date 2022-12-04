@@ -2,10 +2,13 @@ mkdir //crea carpeta
 ls //mostrar archivos
 
 //Comandos de git
-git clone //Clona un repositorio
+git clone <repo> //Clona un repositorio
 git status //muestra los cambios o status
+
 git commit -am "mensaje" //hace un commit al local
 git push origin main //Hace el commit en la nube
+
 git add . //agrega archivos
-git fetch //descarga loa archivos de git
-git pull origin main //agrega los cambios al local
+
+git fetch //Una vez clonado la repo este descarga la informacion
+git pull origin main //ya descargada la info se movia al ultimo commit
