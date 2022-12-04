@@ -1,0 +1,9 @@
+git clone //Clona un repositorio
+mkdir //crea carpeta
+ls //mostrar archivos
+git status //muestra los cambios o status
+git commit -am "mensaje" //hace un commit al local
+git push origin main //Hace el commit en la nube
+git add . //agrega archivos
+git fetch //descarga loa archivos de git
+git pull origin main //agrega los cambios al local
