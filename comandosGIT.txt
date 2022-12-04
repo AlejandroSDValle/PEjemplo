@@ -1,6 +1,8 @@
-git clone //Clona un repositorio
 mkdir //crea carpeta
 ls //mostrar archivos
+
+//Comandos de git
+git clone //Clona un repositorio
 git status //muestra los cambios o status
 git commit -am "mensaje" //hace un commit al local
 git push origin main //Hace el commit en la nube
