@@ -16,6 +16,7 @@ git pull origin main //ya descargada la info se movia al ultimo commit
 git checkout -B <nombre> //agrega branch y se posiciona en ella
 git branch <nombre> //Crea una nueva rama
 git checkout <nombre>//Te mueve a la rama
+git branch -d <rama> //Elimina la rama
 
 git merge main Dev2 //cambos de main a dev2 para resolver 
 
@@ -28,3 +29,4 @@ git log --oneline --graph //visualizador grafico de lo que ha pasado
 
 git checkout <commit> //Moverse a un commit en especifico
 git checkout HEAD~1 //regresar un commit atras
+
